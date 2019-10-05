@@ -1,0 +1,25 @@
+@import "_variable";
+
+#board {
+    background-color:#555555;
+}
+td {
+    &.cell {
+        background-color: $board;
+        width: 60px;
+        height: 60px;
+        margin: 2px;
+        font-size: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    &.black {
+        color:$black_coin;
+        cursor: default;
+    }
+
+    &.white {
+        color: $white_coin;
+        cursor: default;
+    }
+}

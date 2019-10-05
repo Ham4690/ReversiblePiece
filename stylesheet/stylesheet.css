@@ -1,0 +1,24 @@
+#board {
+  background-color: #555555;
+}
+
+td.cell {
+  background-color: #f0cc69;
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+td.black {
+  color: #252121;
+  cursor: default;
+}
+
+td.white {
+  color: #fff;
+  cursor: default;
+}
+/*# sourceMappingURL=stylesheet.css.map */
